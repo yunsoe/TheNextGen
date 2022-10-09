@@ -4,9 +4,9 @@ pragma solidity ^0.8.9;
 import "../node_modules/hardhat/console.sol";
 
 contract Token {
-  string public name = "Employer Token";
-  string public symbol = "EYT";
-  uint public totalSupply = 1000000;
+  string public name = "Employer Payroll";
+  string public symbol = "EYP";
+  uint public totalSupply = 5000000;
   mapping(address => uint) balances;
 
   constructor() {
